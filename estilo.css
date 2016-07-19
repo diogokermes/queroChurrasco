@@ -1,59 +1,54 @@
-.header{
-
-	color: red;
-	background-color: black;
-	font-size: 20px;
-	text-align: center;
+header{
+	color: #F8F8FF;
+	background-color:#8B2500;
+	text-align:center;
+	padding:50px;
 	line-height: 10px;
-	height: 60px;
-	margin-top: 0px;
-	padding-top: 10px;
-	padding-bottom: 15px;
-	/*border-top-width: 10px;*/
-
+	
 }
 
-.nav{
 
-	color: red;
-	background-color: black;
-	font-size: 15px;
-	text-align: center;
-	line-height: 10px;
-	/* float: left; */
-	/*margin-right: 1100px;*/
-	width: 150px;
-	/*padding-left: 50px;*/
-	padding-top: 15px;
-	margin-bottom: 0px;
-	margin-top: -65px;
-	height: 600px;
-	/*border-right-width: 100px;*/
+
+nav{
+	color: #CD6600;
+	background-color: #EE4000;
+	line-height: 30px;
+	float: left; 
+	width: 250px;
+	height: 500px;
+	padding:5px;
 }
 
-.footer{
+footer{
 
-	color: red;
-	background-color: black;
+	color: #F8F8FF; 
+	background-color: #8B2500; 
+	clear:both;
 	font-size: 15px;
-	text-align: center;
+	text-align: center; 
 	height: 45px;
-	line-height: 10px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-	margin-top: 0px;
-	margin-bottom: 5px;
-
+	line-height: 12px;
+	padding:10px;
+}
+section{
+	width:600px;
+	float:left;
+	padding:5px;
+	
 }
 
-.paginas{
-
-	color: red;
-	font-size: 15px;
-	text-align: center;
-	padding-right: 300px;
-	/*float:;*/
-	/*margin*/
-
+.logo{
+	float:left;
+	width:165px;
+	height:120px;
 }
-
+.tag{
+	line-height:30px;
+	background-color:#FFB90F;
+	height:40px;
+	width:1060px;
+	float:center-left;
+	padding:4px;
+	font-size:200%;
+	text-align: center; 
+}
