@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title> Página Inicial </title>
+		<link rel="stylesheet" href="estilo.css">
+		<title> Quero Churrasco </title>
+		<script type="text/javascript" src="script.js"> </script>
+	</head>
+
+	<body>
+
+		<header>
+
+			<img class="logo"src="queroChurrasco.jpg">
+			<h1> Quero Churrasco </h1>
+			<h3> Delivery </h3>
+
+		</header>
+		
+		<nav>
+
+			<h2><b> <i> <u>Sobre Churrasco:</u> </b> </i> </h2>
+			<h3>  Churrasco é o nome dado ao prato feito a base de carne <i> in natura </i> ou processada, assada sobre fogo ou brasas, 
+			com a utilização de estacas de madeira ou metal (chamados de espetos) ou de grelhas.
+			<br>
+			<br>
+
+			</h3>
+			<h4> Fonte: Wikipédia </h4>
+		</nav>
+
+		<section>
+
+			<div class="tag">
+				<b>
+				<a href= "PaginaInicial.html">    | PÁGINA INCIAL | </a> 
+				<a href= "tabela.html">  TABELA DE PREÇOS    </a>  
+				<a href= "pedido.html">  | REALIZAR PEDIDO |  </a>   
+				</b>
+			</div>
+
+			<br>
+
+			<p>
+			Inicialmente, informe a quantidade de pessoas que irá participar da refeição: 
+			</p>
+
+			<form name="quantidadePessoas" action="pedido.html">
+
+				Quantidade: <input type="number" id="quantidade">
+						<!--<input type="submit">
+							<button type="button" onclick="quantidadeIdeal()">
+								Enviar
+							</button>-->
+
+							<h3 id="resposta"> </h3>
+
+							<br>
+
+			<p>
+			Informe a quantidade de gramas desejada, para cada uma das opções de carne abaixo:
+			</p>
+
+				Linguiça: <input type="number" id="linguica"> <br>
+				Contra-Filé: <input type="number" id="contra-file"> <br>
+				Picanha: <input type="number" id="picanha"> <br>
+				Maminha: <input type="number" id="maminha"> <br>
+							
+							<button type="button" onclick="validacao()">
+								Enviar
+							</button>
+
+							<br>
+
+							<h3 id="alerta"> </h3>
+
+							<h3 id="preco"> </h3>
+
+
+			</form>
+
+		</section>
+
+		<footer>
+
+			<h5>
+				WEBSITE DESENVOLVIDO POR DIOGO KERMES E SAMOEL OLIVEIRA <br> 
+				DISCENTES DO 4º ANO MÉDIO TÉCNICO EM INFORMÁTICA NO IFAL - CAMPUS ARAPIRACA
+			</h5>
+
+		</footer>
+
+	</body>
+
+</html>
